@@ -3,4 +3,5 @@
     <string name="title">Title</string>
     <string name="detail">Detail</string>
     <string name="solved">Solved?</string>
+    <string name="data_format">EEEE dd MMMM yyyy</string>
 </resources>

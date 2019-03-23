@@ -13,6 +13,9 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 
+import java.text.SimpleDateFormat;
+import java.util.Locale;
+
 public class CrimeFragment extends Fragment {
     Crime crime;
 
@@ -45,7 +48,7 @@ public class CrimeFragment extends Fragment {
 
             }
         });
-        button.setText(crime.getDate().toString());
+        button.setText(new SimpleDateFormat(getString(R.string.data_format), Locale.getDefault()).format(crime.getDate()));
         checkBox.setChecked(crime.isSolved());
         return view;
     }
