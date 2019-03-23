@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+ <TextView
+     android:layout_marginTop="16dp"
+     android:layout_marginLeft="16dp"
+     android:layout_marginStart="16dp"
+     android:layout_marginEnd="16dp"
+     android:layout_marginRight="16dp"
+     android:text="@string/title"
+     style="?android:listSeparatorTextViewStyle"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content" />
+    <EditText
+     android:layout_marginLeft="16dp"
+     android:layout_marginStart="16dp"
+     android:layout_marginEnd="16dp"
+     android:layout_marginRight="16dp"
+     android:id="@+id/tv_title"
+     android:hint="@string/title"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/detail"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/bt_detail"
+        tools:hint="18 15 15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/cb_solved"
+        android:text="@string/solved"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
